@@ -1,0 +1,112 @@
+
+// hair
+    .st {
+        $var: 0.04;
+
+        @for $i from 122 through 195 {
+            &#{$i} {
+                transition-delay: #{$var}s;
+                $var: $var + 0.04;
+            }
+        }
+    }
+
+/* face */
+    .st {
+        $var: 1.6;
+
+        @for $i from 295 through 514 {
+            &#{$i} {
+                transition-delay: #{$var}s;
+                $var: $var + 0.02;
+            }
+        }
+    }
+
+    #face .st142{
+        transition-delay: 5.92s;
+    }
+
+/* eye left */
+    .st {
+        $var: 2.5;
+
+        @for $i from 515 through 580 {
+            &#{$i} {
+                transition-delay: #{$var}s;
+                $var: $var + 0.01;
+            }
+        }
+    }
+
+/* eye right */
+    .st {
+        $var: 2.5;
+
+        @for $i from 581 through 646 {
+            &#{$i} {
+                transition-delay: #{$var}s;
+                $var: $var + 0.01;
+            }
+        }
+    }
+
+/* nose */
+    .st {
+        $var: 3;
+
+        @for $i from 237 through 294 {
+            &#{$i} {
+                transition-delay: #{$var}s;
+                $var: $var + 0.03;
+            }
+        }
+    }
+
+/* ear left */
+    .st {
+        $var: 3.5;
+
+        @for $i from 196 through 216 {
+            &#{$i} {
+                transition-delay: #{$var}s;
+                $var: $var + 0.05;
+            }
+        }
+    }
+
+/* ear right */
+    .st {
+        $var: 3.5;
+
+        @for $i from 217 through 236 {
+            &#{$i} {
+                transition-delay: #{$var}s;
+                $var: $var + 0.05;
+            }
+        }
+    }
+
+/* neck */
+    .st {
+        $var: 5.9;
+
+        @for $i from 83 through 121 {
+            &#{$i} {
+                transition-delay: #{$var}s;
+                $var: $var + 0.04;
+            }
+        }
+    }
+
+/* shirt */
+    .st {
+        $var: 6.5;
+
+        @for $i from 0 through 82 {
+            &#{$i} {
+                transition-delay: #{$var}s;
+                $var: $var + 0.04;
+            }
+        }
+    }

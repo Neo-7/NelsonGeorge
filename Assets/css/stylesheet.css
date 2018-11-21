@@ -1,0 +1,38 @@
+
+/* reset */
+@import "style-reset.css";
+
+/* font icon */
+@import "style-font.css";
+
+/* layout */
+@import "style-layout.css";
+
+/* master */
+@import "style-master.css";
+
+/* theme */
+@import "style-theme.css";
+
+/* nelson */
+@import "nelson.css";
+
+/* chrome scroll bar mini | none */
+    @media screen and (min-width:1080px){
+        /* medium scroll */
+            .medium-scroll::-webkit-scrollbar{ height:5px; width:5px; }
+            .medium-scroll::-webkit-scrollbar-button { display:block; width:5px; height:5px; }
+        
+        /* mini scroll */
+            .mini-scroll::-webkit-scrollbar{ height:3px; width:3px; }
+            .mini-scroll::-webkit-scrollbar-button { display:block; width:1px; height:1px; }
+            
+        /* body scroll */
+            body::-webkit-scrollbar{ height:7px; width:7px; }
+            body::-webkit-scrollbar-button { display:block; width:1px; height:1px; }
+
+        ::-webkit-scrollbar-button:vertical:hover{ background-color:#ddd; border-radius:7px; }
+        ::-webkit-scrollbar-thumb{ background:rgba(0,0,0,.3); border-radius:7px;}
+        ::-webkit-scrollbar-button:start:increment,
+        ::-webkit-scrollbar-button:end:decrement { display: none; }
+    }

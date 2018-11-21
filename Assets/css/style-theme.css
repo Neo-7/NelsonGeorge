@@ -1,0 +1,90 @@
+
+/* Default theme */
+    body{
+        background-color: #222;
+        transition: background-color 0.3s;
+        color: #212121;
+    }
+
+    .bg{
+        transition: background-color 0.3s 5s;
+    }
+
+    body[data-load="true"]{
+        background-color: #f5f5f5;
+    }
+
+    body[data-load="true"] .nav a.active span{
+        background-color: #f5f5f5;
+    }
+
+    body[data-load="true"] .bg{
+        background-color: #f5f5f5;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .primary-bg{
+        background-color: #43415f;
+        color: #fff;
+        transition: 0.3s;
+    }
+
+    .primary-border{
+        border-color: #43415f;
+        transition: 0.3s;
+    }
+
+    .primary-color{
+        color: #43415f;
+    }
+
+    .accent-bg{
+        background-color: #FF4081;
+        color: #fff;
+        transition: 0.3s;
+    }
+
+    .accent-border{
+        border-color: #FF4081;
+    }
+
+    .accent-color{
+        color: #FF4081;
+        transition: 0.3s;
+    }
+
+    .white-bg{
+        background: #fff;
+        color: #212121;
+    }
+
+
+    /* common */
+        .warn-bg{
+            background-color: #f44336;
+            color: #fff;
+        }
+        .warn-color{
+            color: #f44336;
+        }

@@ -1,0 +1,206 @@
+
+/* icon font */
+   @font-face {
+        font-family: 'neo7';
+        src:
+            url('../fonts/neo7.ttf?y13eqi') format('truetype'),
+            url('../fonts/neo7.woff?y13eqi') format('woff'),
+            url('../fonts/neo7.svg?y13eqi#neo7') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+  
+    [class^="i-"], [class*=" i-"] {
+        font-family: 'neo7' !important;
+        speak: none;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+
+        /* Better Font Rendering =========== */
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+  
+    .i-arrow_back:before {
+        content: "\e5c4";
+    }
+    .i-arrow_forward:before {
+        content: "\e5c8";
+    }
+    .i-phone:before {
+        content: "\e0cd";
+    }
+    .i-close:before {
+        content: "\e5cd";
+    }
+    .i-photo_library:before {
+        content: "\e413";
+    }
+    .i-palette:before {
+        content: "\e40a";
+    }
+    .i-contacts:before {
+        content: "\e0ba";
+    }
+    .i-markunread:before {
+        content: "\e159";
+    }
+    .i-home:before {
+        content: "\e88a";
+    }
+    .i-keyboard_arrow_left:before {
+        content: "\e314";
+    }
+    .i-keyboard_arrow_right:before {
+        content: "\e315";
+    }
+    .i-print:before {
+        content: "\e8ad";
+    }
+    .i-room:before {
+        content: "\e8b4";
+    }
+    .i-menu:before {
+        content: "\e5d2";
+    }
+    .i-person:before {
+        content: "\e7fd";
+    }
+    .i-public:before {
+        content: "\e80b";
+    }
+    .i-school:before {
+        content: "\e80c";
+    }
+    .i-google-plus:before {
+        content: "\ea8b";
+    }
+    .i-facebook:before {
+        content: "\ea90";
+    }
+    .i-instagram:before {
+        content: "\ea92";
+    }
+    .i-github:before {
+        content: "\eab0";
+    }
+  
+
+/* icon normal */
+    .ico{
+        height: 40px;
+        width: 40px;
+        padding: 8px;
+        display: inline-block;
+        position: relative;
+
+        font-size: 24px
+    }
+
+    .icon24{
+        height: 24px;
+        width: 24px;
+        font-size: 15px;
+        padding: 4px;
+        display: inline-block;
+    }
+
+    .icon32{
+        height: 32px;
+        width: 32px;
+        padding: 4px;
+        font-size: 24px;
+        display: inline-block;
+    }
+
+
+/* typography */
+    /*
+    .text-headline{
+        font: 400 24px/32px 'Raleway',sans-serif;
+    }
+
+    .text-title{
+        font: 400 24px/32px 'Raleway',sans-serif;
+    }
+
+    .text-title-strong{
+        font: 600 24px/32px 'Raleway',sans-serif;
+    }
+
+    .text-heading{
+        font: 400 20px/28px 'Raleway',sans-serif;
+    }
+
+    .text-heading-strong{
+        font: 400 20px/28px 'Raleway',sans-serif;
+    }
+
+    .text-body{
+        font: 400 16px/20px 'Raleway',sans-serif;
+    }
+
+    .text-body-strong {
+        font: 600 16px/24px 'Raleway',sans-serif;
+    }
+
+    .text-body-2{
+        font: 400 14px/24px 'Raleway',sans-serif;
+    }
+
+    .text-body-2strong{
+        font: 600 14px/24px 'Raleway',sans-serif;
+    }
+
+    .text-caption{
+        font: 400 12px/20px 'Raleway',sans-serif;
+    }
+    */
+
+    .text-headline{
+        font: 400 48px/54px 'Raleway',sans-serif;
+    }
+
+    .text-headline-strong{
+        font: 600 48px/54px 'Raleway',sans-serif;
+    }
+
+    .text-title{
+        font: 400 24px/32px 'Raleway',sans-serif;
+    }
+
+    .text-title-strong{
+        font: 600 24px/32px 'Raleway',sans-serif;
+    }
+
+    .text-heading{
+        font: 400 20px/28px 'Raleway',sans-serif;
+    }
+
+    .text-heading-strong{
+        font: 400 20px/28px 'Raleway',sans-serif;
+    }
+
+    .text-body{
+        font: 400 16px/24px 'Raleway',sans-serif;
+    }
+
+    .text-body-strong {
+        font: 600 16px/24px 'Raleway',sans-serif;
+    }
+
+    .text-body-2{
+        font: 400 14px/24px 'Raleway',sans-serif;
+    }
+
+    .text-body-2strong{
+        font: 600 14px/24px 'Raleway',sans-serif;
+    }
+
+    .text-caption{
+        font: 400 12px/20px 'Raleway',sans-serif;
+    }
+

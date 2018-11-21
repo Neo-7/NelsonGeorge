@@ -1,0 +1,254 @@
+
+.nav-section{
+    position: relative;
+}
+
+/* home */
+    #nHome{
+        min-height: 110vh;
+        /* padding: 0 32px 0 72px; */
+    }
+
+/* navigation */
+    #navigation{
+        z-index: 1;
+    }
+    .nav{
+        list-style: none;
+        margin: 0;
+        padding: 64px 8px 0;
+        width: 72px;
+        min-height: 440px;
+        line-height: 56px;
+    }
+    
+    .nav:before{
+        content: "";
+        height: 100%;
+        width: 1px;
+        background: #202020;
+        position: absolute;
+        transition: 0.5s;
+        transform: scale(1.0001, 0);
+        transform-origin: 100% 100%;
+    }
+
+    #nHome[data-active="true"] .nav:before{
+        transform: scale(1.0001, 1.0001);
+    }
+    
+    .nav li{
+        width: 100%;
+    }
+
+    .nav a {
+        position: relative;
+        text-align: center;
+        transform: rotate(-90deg);
+    }
+    .nav span {
+        display: block;
+        min-width: 56px;
+        white-space: nowrap;
+        transition: 0.7s cubic-bezier(0.68, -0.55, 0.27, 1.55), background-color 0.3s 0.3s;
+    }
+
+    a[href="#nHome"] span{
+        letter-spacing: -11px;
+    }
+
+    a[href="#nAbout"] span{
+        letter-spacing: -8px;
+    }
+
+    a[href="#nPortfolio"] span{
+        letter-spacing: -7px;
+    }
+
+    a[href="#nContact"] span{
+        letter-spacing: -9px;
+    }
+    
+    a.active span{
+        margin: 50% 0;
+        padding: 0 12px 0 20px;
+        max-width: 220px;
+        letter-spacing: 12px;
+    }
+
+    .nav span:before,
+    .nav span:after{
+        content: "";
+        height: 3px;
+        width: 3px;
+        border-radius: 4px;
+        position: absolute;
+        margin-top: 27px;
+        background: #202020;
+        transition: 0.3s;
+        opacity: 0;
+    }
+
+    a.active span:before{
+        opacity: 1;
+        left: 0;
+    }
+    a.active span:after{
+        opacity: 1;
+        right: 0;
+    }
+
+/* logo */
+    .logo{
+        height: 64px;
+        width: 96px;
+        padding: 0 4px;
+        z-index: 2;
+        left: 24px;
+    }
+
+    .logo svg{
+        width: 88px;
+    }
+
+    .logo g:nth-child(2){
+        transform: translateX(-23px);
+        transition: 0.45s;
+    }
+
+    .logo:hover g:nth-child(2),
+    .logo:focus g:nth-child(2){
+        transform: translateX(0);
+    }
+
+/* home content */
+    .home-content{
+        min-height: 100%;
+        padding: 0 32px 0 72px;
+    }
+
+    /* nelson */
+        .nelson{
+            width: 100%;
+            max-width: 424px;
+            padding: 0 64px 0 0;
+            display: inline-block;
+        }
+
+        .nelson svg{
+            filter: drop-shadow(30px 30px 10px rgba(0,0,0,.15));
+        }
+
+    /* intro */
+        .intro{
+            width: 590px;
+            max-width: 100%;
+            padding: 0 0 0 48px;
+            place-content: center;
+        }
+
+        .intro h1{
+            margin: 8px 0;
+        }
+        .intro .text-headline{
+            letter-spacing: 0.1em;
+        }
+        .intro h2{
+            letter-spacing: .325em;
+        }
+    
+    @media screen and (max-width:839px){
+        .home-content{
+            padding: 0 24px 0 72px;
+        }
+
+        .nelson{
+            max-width: 360px;
+            padding: 0 24px 0 0;
+        }
+
+        .intro{
+            width: 540px;
+            padding: 0 0 0 24px;
+        }
+    }
+
+    @media screen and (max-width:699px){
+        .home-content{
+            flex-direction: column;
+        }
+
+        .nelson{
+            min-height: 90vh;
+            max-width: 100%;
+            padding: 0;
+            margin-bottom: 100px;
+            display: flex;
+            align-items: center;
+            place-content: center;
+        }
+
+        .nelson div{
+            width: 100%;
+            max-width: 320px;
+        }
+
+        .intro{
+            width: 540px;
+            padding: 0 0 0 24px;
+        }
+    }
+
+/* social media link */
+    .smLink{
+        height: 56px;
+        right: 16px;
+        z-index: 1;
+        transition: 0.45s;
+    }
+
+    .smLink a{
+        height: 56px;
+        max-width: 56px;
+        float: left;
+        transition: 0.45s;
+    }
+
+    .smLink a:nth-child(1):hover{
+        color: #de5447;   
+    }
+
+    .smLink a:nth-child(2):hover{
+        color: #5a4eca;   
+    }
+
+    .smLink a:nth-child(3):hover{
+        color: #171515;   
+    }
+
+    .smLink i{
+        font-size: 20px;
+        padding: 10px;
+        float: left;
+    }
+
+    @media screen and (max-width:839px){
+
+    }
+
+    /* orientation msg */
+        .orientation-msg{
+            display: none;
+            background: #fff;
+            z-index: 9999;
+        }
+
+        @media screen and (max-width:839px) and (orientation: landscape){
+            .orientation-msg{
+                display: block;
+            }
+        }
+
+
+/* main */
+
