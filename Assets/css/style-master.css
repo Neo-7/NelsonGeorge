@@ -105,6 +105,7 @@
         padding: 0 4px;
         z-index: 2;
         left: 24px;
+        border-radius: 64px;
     }
 
     .logo svg{
