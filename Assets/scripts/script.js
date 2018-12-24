@@ -133,10 +133,10 @@
             // onscroll hide social media link
             function updateSMlink(){
                 if ($(this).scrollTop()>100){
-                    $('.smLink').addClass('hideSM');
+                    $('.smLink').addClass('hidden');
                 }
                 else{
-                    $('.smLink').removeClass('hideSM');
+                    $('.smLink').removeClass('hidden');
                 }
             }
 
