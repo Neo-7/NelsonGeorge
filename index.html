@@ -160,13 +160,15 @@
     <script src="Assets/scripts/script.js"></script>
 
     <script>
+		/*
         $(window).on('load', function () {
-            //$('body').attr('data-load', 'true');
-            
-            
+            $('body').attr('data-load', 'true');
         });
+		*/
 		
-		document.addEventListener('DOMContentLoaded', function(){ 
+		window.onbeforeunload = function(){ window.scrollTo(0,0); }
+		
+		document.addEventListener('DOMContentLoaded', function(){
 			setTimeout(function () {
                 $('body').attr('data-load', 'true');
 
@@ -174,6 +176,12 @@
                 $('#neo-portrait').attr('data-view', 'true');
             }, 1500);
 		}, false);
+		
+		/*
+		$(window).on('beforeunload', function() {
+			$(window).scrollTop(0);
+		});
+		*/
 
         $(document).ready(function() {
             
