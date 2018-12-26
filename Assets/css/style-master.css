@@ -105,7 +105,7 @@
         padding: 0 4px;
         z-index: 2;
         left: 24px;
-        border-radius: 64px;
+		border-radius: 64px;
     }
 
     .logo svg{
@@ -123,16 +123,22 @@
     }
 
 /* home content */
-    .home-content{
+    .page-content{
         min-height: 100%;
-        padding: 0 32px 0 72px;
+        padding: 0 72px;
+		margin: 0 auto;
+		max-width: 1280px;
     }
+	
+	.pc2{
+		padding-top: 24px;
+	}
 
     /* nelson */
         .nelson{
             width: 100%;
             max-width: 424px;
-            padding: 0 64px 0 0;
+            padding: 0 48px 0 16px;
             display: inline-block;
         }
 
@@ -146,6 +152,7 @@
             max-width: 100%;
             padding: 0 0 0 48px;
             place-content: center;
+			text-shadow: 15px 15px 15px rgba(0,0,0,.2);
         }
 
         .intro h1{
@@ -159,9 +166,13 @@
         }
     
     @media screen and (max-width:839px){
-        .home-content{
+        .page-content{
             padding: 0 24px 0 72px;
         }
+		
+		.pc2{
+			padding-top: 36px;
+		}
 
         .nelson{
             max-width: 360px;
@@ -175,15 +186,16 @@
     }
 
     @media screen and (max-width:699px){
-        .home-content{
+        .page-content{
             flex-direction: column;
+			position:relative;
         }
 
         .nelson{
             min-height: 90vh;
             max-width: 100%;
+			margin-bottom: 10vh;
             padding: 0;
-            margin-bottom: 100px;
             display: flex;
             align-items: center;
             place-content: center;
