@@ -41,9 +41,14 @@
     </div>
 
     <div class="relative" id="container">
+    	<!-- fixed
+        <div id="pageFixed" class="hw100 fixed-top" data-active="false" style="z-index:4;">
+        </div>
+        -->
+        
         <!-- home -->
-        <div id="nHome" class="nav-section" data-active="false">
-            <!-- logo -->
+        <div id="nHome" class="flex fx-center nav-section">
+        	<!-- logo -->
             <a class="fixed-top bg logo">
                 <svg version="1.1" id="ng-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                     viewBox="0 0 96 64" style="enable-background:new 0 0 96 64;" xml:space="preserve">
@@ -91,8 +96,9 @@
                     </li>
                 </ul>
             </nav>
-
-            <div class="width100 absolute-top flex fx-row fx-center home-content">
+            
+			<!-- home content -->
+            <div class="width100 absolute flex fx-row fx-center page-content">
                 <!-- SVG IMG -->
                 <div class="nelson">
                     <div class="svg-container">
@@ -102,12 +108,12 @@
 
                 <!-- intro -->
                 <div class="align-right flex fx-column intro">
-                    <h1 class="text-headline-strong"><span class="bg inline">Hi,</span></h1>
-                    <h1 class="text-headline"><span class="bg inline">I'am Nelson George</span></h1>
-                    <h2 class="text-body"><span class="bg inline">UI/UX Designer . Front-End Web Developer</span></h2>
+                    <h1 class="text-headline-strong"><span class="inline">Hi,</span></h1>
+                    <h1 class="text-headline"><span class="inline">I'am Nelson George</span></h1>
+                    <h2 class="text-body"><span class="inline">UI/UX Designer . Front-End Web Developer</span></h2>
                 </div>
             </div>
-
+            
             <!-- social media link -->
             <section class="fixed-bottom smLink">
                 <a target="_blank" class="padding-8" rel="noopener" href="https://plus.google.com/+nelsongeorge7">
@@ -124,16 +130,31 @@
             </section>
         </div>
 
-        <!-- about -->
+       <!-- about -->
         <div id="nAbout" class="nav-section">
+        	<div class="width100 page-content pc2">
+        		<h1 class="text-headline-strong">About Me</h1>
+                
+                <div>
+                </div>
+                
+                <div>
+                </div>
+            </div>
         </div>
 
-        <!-- -->
+        <!-- portfolio -->
         <div id="nPortfolio" class="nav-section">
+        	<div class="width100 page-content pc2">
+        		<h1 class="text-headline-strong text-center">Portfolio</h1>
+            </div>
         </div>
 
-        <!-- -->
+        <!-- contact me -->
         <div id="nContact" class="nav-section">
+        	<div class="width100 page-content pc2">
+        		<h1 class="text-headline-strong text-center">Contact Me</h1>
+            </div>
         </div>
     </div>
 
@@ -190,7 +211,7 @@
 
     <style>
         .nav-section:not(#nHome){
-            min-height: 680px;
+            min-height: 100vh;
         }
     </style>
 </body>
