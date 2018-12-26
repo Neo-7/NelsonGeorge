@@ -120,47 +120,6 @@
 /* typography */
     /*
     .text-headline{
-        font: 400 24px/32px 'Raleway',sans-serif;
-    }
-
-    .text-title{
-        font: 400 24px/32px 'Raleway',sans-serif;
-    }
-
-    .text-title-strong{
-        font: 600 24px/32px 'Raleway',sans-serif;
-    }
-
-    .text-heading{
-        font: 400 20px/28px 'Raleway',sans-serif;
-    }
-
-    .text-heading-strong{
-        font: 400 20px/28px 'Raleway',sans-serif;
-    }
-
-    .text-body{
-        font: 400 16px/20px 'Raleway',sans-serif;
-    }
-
-    .text-body-strong {
-        font: 600 16px/24px 'Raleway',sans-serif;
-    }
-
-    .text-body-2{
-        font: 400 14px/24px 'Raleway',sans-serif;
-    }
-
-    .text-body-2strong{
-        font: 600 14px/24px 'Raleway',sans-serif;
-    }
-
-    .text-caption{
-        font: 400 12px/20px 'Raleway',sans-serif;
-    }
-    */
-
-    .text-headline{
         font: 400 48px/54px 'Raleway',sans-serif;
     }
 
@@ -169,19 +128,19 @@
     }
 
     .text-title{
-        font: 400 24px/32px 'Raleway',sans-serif;
+        font: 400 36px/40px 'Raleway',sans-serif;
     }
 
     .text-title-strong{
-        font: 600 24px/32px 'Raleway',sans-serif;
+        font: 600 36px/40px 'Raleway',sans-serif;
     }
 
     .text-heading{
-        font: 400 20px/28px 'Raleway',sans-serif;
+        font: 400 24px/28px 'Raleway',sans-serif;
     }
 
     .text-heading-strong{
-        font: 400 20px/28px 'Raleway',sans-serif;
+        font: 400 24px/28px 'Raleway',sans-serif;
     }
 
     .text-body{
@@ -203,4 +162,63 @@
     .text-caption{
         font: 400 12px/20px 'Raleway',sans-serif;
     }
+    */
+
+    /* heading */
+        .text-headline1{
+            font: 300 6rem/6rem 'Raleway',sans-serif;
+            letter-spacing: -0.09375rem;
+        }
+
+        .text-headline2{
+            font: 300 3.75rem/3.75rem 'Raleway',sans-serif;
+            letter-spacing: -0.03125rem;
+        }
+
+        .text-headline3{
+            font: 400 3rem/3.125rem 'Raleway',sans-serif;
+            letter-spacing: normal;
+        }
+
+        .text-headline4{
+            font: 400 2.125rem/2.5rem 'Raleway',sans-serif;
+            letter-spacing: 0.015625rem;
+        }
+
+        .text-headline5{
+            font: 400 1.5rem/2rem 'Raleway',sans-serif;
+            letter-spacing: normal;
+        }
+
+        .text-headline6{
+            font: 400 1.25rem/2rem 'Raleway',sans-serif;
+            letter-spacing: 0.009375rem;
+        }
+
+    /* sub title */
+        .text-subtitle1{
+            font: 400 1rem/1.75rem 'Raleway',sans-serif;
+            letter-spacing: 0.009375rem;
+        }
+
+        .text-subtitle1a{
+            font: 600 1rem/1.75rem 'Raleway',sans-serif;
+            letter-spacing: 0.009375rem;
+        }
+
+        .text-subtitle2{
+            font: 400 0.875rem/1.5rem 'Raleway',sans-serif;
+            letter-spacing: 0.00625rem;
+        }
+
+    /* body */
+        .text-body1{
+            font: 300 1rem/1.75rem 'Raleway',sans-serif;
+            letter-spacing: 0.03125rem;
+        }
+
+        .text-body2{
+            font: 300 0.875rem/1.5rem 'Raleway',sans-serif;
+            letter-spacing: 0.015625rem;
+        }
 
