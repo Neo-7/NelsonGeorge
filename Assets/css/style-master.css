@@ -28,6 +28,8 @@
         width: 1px;
         background: #202020;
         position: absolute;
+        top: 56px;
+        left: 36px;
         transition: 0.5s;
         transform: scale(1.0001, 0);
         transform-origin: 100% 100%;
@@ -125,7 +127,7 @@
 /* home content */
     .page-content{
         min-height: 100%;
-        padding: 0 72px;
+        padding: 0 96px;
 		margin: 0 auto;
 		max-width: 1280px;
     }
