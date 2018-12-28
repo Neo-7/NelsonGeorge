@@ -172,13 +172,11 @@
             padding: 0 24px 0 72px;
         }
 		
-		.page-content .text-headline3{
+		.pc2 .text-headline3{
 			font: 400 2.125rem/2.5rem 'Raleway',sans-serif;
             letter-spacing: 0.015625rem;
-		}
-		
-		.pc2{
-			padding-top: 36px;
+			text-align: center;
+			padding-top: 12px;
 		}
 
         .nelson{
@@ -212,6 +210,10 @@
             align-items: center;
             place-content: center;
         }
+		
+		.pc2 .text-headline3{
+			text-align: right;
+		}
 
         .nelson div{
             width: 100%;
@@ -221,7 +223,12 @@
         .intro{
             width: 540px;
             padding: 0 0 0 24px;
+			text-align: right;
         }
+		
+		#nContact * {
+			text-align: right;
+		}
     }
 
 /* social media link */
