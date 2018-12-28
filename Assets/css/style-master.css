@@ -172,6 +172,11 @@
             padding: 0 24px 0 72px;
         }
 		
+		.page-content .text-headline3{
+			font: 400 2.125rem/2.5rem 'Raleway',sans-serif;
+            letter-spacing: 0.015625rem;
+		}
+		
 		.pc2{
 			padding-top: 36px;
 		}
@@ -191,7 +196,12 @@
         .page-content{
             flex-direction: column;
 			position:relative;
+			word-wrap: break-word;
         }
+		
+		.logo{
+			width: 64px;
+		}
 
         .nelson{
             min-height: 90vh;
