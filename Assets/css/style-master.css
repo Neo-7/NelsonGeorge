@@ -355,6 +355,13 @@
 		#nHome:not([data-active="true"]) .ta_h05{
 			letter-spacing:-8px;
 		}
+		
+		@media screen and (max-width: 699px){
+			#nHome:not(.visible) .ta_h03,
+			#nHome:not([data-active="true"]) .ta_h03 {
+				letter-spacing: -17px;
+			}
+		}
 	
 	/* about me */
 		
