@@ -306,6 +306,56 @@
 
 
 /* main */
+	/* home */
+		#nHome:not([data-active="true"]) .intro{
+			text-shadow: none;
+		}
+		
+		.ta_h01{
+			transition: letter-spacing 0.2s 0.3s;
+		}
+		
+		#nHome:not(.visible) .ta_h01,
+		#nHome:not([data-active="true"]) .ta_h01{
+			letter-spacing:-14px;
+		}
+		
+		.ta_h02{
+			transition: letter-spacing 0.3s 0.45s;
+		}
+		
+		#nHome:not(.visible) .ta_h02,
+		#nHome:not([data-active="true"]) .ta_h02{
+			letter-spacing:-11px;
+		}
+		
+		.ta_h03{
+			transition: letter-spacing 0.7s 0.45s;
+		}
+		
+		#nHome:not(.visible) .ta_h03,
+		#nHome:not([data-active="true"]) .ta_h03{
+			letter-spacing:-24px;
+		}
+		
+		.ta_h04{
+			transition: letter-spacing 0.7s 0.6s;
+		}
+		
+		#nHome:not(.visible) .ta_h04,
+		#nHome:not([data-active="true"]) .ta_h04{
+			letter-spacing:-8px;
+		}
+		
+		.ta_h05{
+			transition: letter-spacing 0.7s 0.6s;
+		}
+		
+		#nHome:not(.visible) .ta_h05,
+		#nHome:not([data-active="true"]) .ta_h05{
+			letter-spacing:-8px;
+		}
+	
 	/* about me */
 		
 	
