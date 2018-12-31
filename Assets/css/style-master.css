@@ -11,7 +11,7 @@
 
 /* navigation */
     #navigation{
-	height: 100vh;
+		height: 100vh;
         z-index: 1;
     }
     .nav{
@@ -171,6 +171,7 @@
     @media screen and (max-width:839px){
         .page-content{
             padding: 0 24px 0 72px;
+			float: left;
         }
 		
 		.pc2 .text-headline3{
