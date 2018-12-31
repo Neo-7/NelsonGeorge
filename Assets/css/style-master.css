@@ -304,4 +304,90 @@
 
 
 /* main */
-
+	/* about me */
+		
+	
+	
+	/* portfolio */
+	
+	
+	
+	
+	
+	/* contact */
+		.ta_c01{
+			transition: letter-spacing 0.45s 0.3s;
+		}
+		
+		#nContact:not(.visible) .ta_c01{
+			letter-spacing:-16px;
+		}
+		
+		.ta_c02{
+			transition: letter-spacing 0.45s 0.45s;
+		}
+		
+		#nContact:not(.visible) .ta_c02{
+			letter-spacing:-6px;
+		}
+		
+		.ta_c03{
+			transition: letter-spacing 0.45s 0.6s;
+		}
+		
+		#nContact:not(.visible) .ta_c03{
+			letter-spacing:-7px;
+		}
+		
+		.ta_c04{
+			transition: letter-spacing 0.45s 0.75s;
+		}
+		
+		#nContact:not(.visible) .ta_c04{
+			letter-spacing:-7px;
+		}
+		
+		.ta_c05{
+			transition: letter-spacing 0.45s 0.9s;
+		}
+		
+		#nContact:not(.visible) .ta_c05{
+			letter-spacing:-7px;
+		}
+		
+		.ta_c06{
+			transition: letter-spacing 0.45s 1.05s;
+		}
+		
+		#nContact:not(.visible) .ta_c06{
+			letter-spacing:-7px;
+		}
+		
+		.ta_c07{
+			transition: letter-spacing 0.45s 1.20s;
+		}
+		
+		#nContact:not(.visible) .ta_c07{
+			letter-spacing:-8px;
+		}
+		
+		.ta_c08{
+			transition: letter-spacing 0.45s 1.35s;
+		}
+		
+		#nContact:not(.visible) .ta_c08{
+			letter-spacing:-6px;
+		}
+		
+		.ta_c09{
+			transition: opacity 0.45s 1.50s;
+		}
+		
+		#nContact:not(.visible) .ta_c09{
+			opacity: 0;
+		}
+	
+	
+	
+	
+	
