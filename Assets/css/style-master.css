@@ -221,15 +221,36 @@
         }
 
         .intro{
-            width: 540px;
-            padding: 0 0 0 24px;
+            width: 100%;
+            padding: 0;
 			text-align: right;
         }
+		
+		.xs-row{
+			width: 100%;
+			display: inline-block;
+		}
+		
+		.intro .text-headline2 {
+			font: 400 3rem/3.125rem 'Raleway',sans-serif;
+			letter-spacing: normal;
+		}
+		
+		.intro .text-headline3 {
+			font: 400 2.125rem/2.5rem 'Raleway',sans-serif;
+			letter-spacing: 0.015625rem;
+		}
 		
 		#nContact * {
 			text-align: right;
 		}
     }
+	
+	@media screen and (max-width: 460px){
+		.intro h2 {
+			letter-spacing: .125em;
+		}
+	}
 
 /* social media link */
     .smLink{
