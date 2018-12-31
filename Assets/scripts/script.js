@@ -100,6 +100,7 @@
             //smooth scroll to the section
             navigationItems.on('click', function(event){
                 event.preventDefault();
+                navigator.vibrate(300);
                 smoothScroll($(this.hash));
             });
 
