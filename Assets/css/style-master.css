@@ -11,6 +11,7 @@
 
 /* navigation */
     #navigation{
+	height: 100vh;
         z-index: 1;
     }
     .nav{
@@ -25,7 +26,6 @@
     .nav:before{
         content: "";
         height: 100%;
-	height: calc(100% + 56px);
         width: 1px;
         background: #202020;
         position: absolute;
