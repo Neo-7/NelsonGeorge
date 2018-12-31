@@ -25,6 +25,7 @@
     .nav:before{
         content: "";
         height: 100%;
+	height: calc(100% + 56px);
         width: 1px;
         background: #202020;
         position: absolute;
