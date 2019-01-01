@@ -291,18 +291,18 @@
 
     }
 
-    /* orientation msg */
-        .orientation-msg{
-            display: none;
-            background: #fff;
-            z-index: 9999;
-        }
+/* orientation msg */
+    .orientation-msg{
+        display: none;
+        background: #fff;
+        z-index: 9999;
+    }
 
-        @media screen and (max-width:839px) and (orientation: landscape){
-            .orientation-msg{
-                display: block;
-            }
+    @media screen and (max-width:839px) and (orientation: landscape){
+        .orientation-msg{
+            display: block;
         }
+    }
 
 
 /* main */
@@ -444,7 +444,13 @@
 		
 		#nContact:not(.visible) .ta_c09{
 			opacity: 0;
-		}
+        }
+        
+        @media screen and (min-width: 840px){
+            #nContact:not(.visible) .ta_c01 {
+                letter-spacing: -23px;
+            }
+        }
 	
 	
 	
