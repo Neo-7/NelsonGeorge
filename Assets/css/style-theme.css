@@ -88,3 +88,31 @@
         .warn-color{
             color: #f44336;
         }
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+    body[data-load="true"]{
+        background-color: #404040;
+        color: #f5f5f5;
+    }
+
+    body[data-load="true"] .nav a.active span{
+        background-color: #404040;
+    }
+
+    body[data-load="true"] .bg{
+        background-color: #404040;
+    }
+
+    .logo svg {
+        fill: #f5f5f5;
+    }
+
+    .nav:before {
+        background: #f5f5f5;
+    }
+
+    .nav span:before, .nav span:after {
+        background: #f5f5f5;
+    }
+}

@@ -306,7 +306,8 @@
 
 
 /* main */
-	/* home */
+    /* home */
+        /*
 		#nHome:not([data-active="true"]) .intro{
 			text-shadow: none;
 		}
@@ -361,7 +362,8 @@
 			#nHome:not([data-active="true"]) .ta_h03 {
 				letter-spacing: -17px;
 			}
-		}
+        }
+        */
 	
 	/* about me */
 		
@@ -373,7 +375,8 @@
 	
 	
 	
-	/* contact */
+    /* contact */
+        /*
 		.ta_c01{
 			transition: letter-spacing 0.45s 0.3s;
 		}
@@ -451,8 +454,4 @@
                 letter-spacing: -23px;
             }
         }
-	
-	
-	
-	
-	
+        */
